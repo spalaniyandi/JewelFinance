@@ -1,0 +1,131 @@
+body {
+	background-color: white;
+}
+
+#div_body {
+	/*background-color	: black;*/
+	/*border			: 1px solid black;*/
+	border-radius		: 10px;
+	font-family			: calibri;
+	height				: 900px;
+	margin				: auto;
+	width				: 700px;
+}
+
+#div_title {
+	/*border				: 10px;*/
+	border-bottom		: 2px solid black;
+	font-size			: 25px;
+	height				: 30px;
+	padding				: 10px;
+	text-align			: center;
+	margin				: auto;
+}
+
+#div_data {
+	/*padding				: 10px 20px 10px 20px;*/
+	width				: 650px;
+	margin				: auto;
+}
+
+#div_form_title {
+	font-size			: 18px;
+	font-style			: bold italic;
+	margin				: auto;
+	padding				: 5px;
+	text-align			: center;
+}
+
+#div_form {
+	/*border				: 1px solid black;
+	border-radius		: 10px;
+	height				: 735px;*/
+	margin				: auto;
+	padding				: 5px;
+}
+
+.receipt_form_table {
+	border				: 1px solid black;
+	border-radius		: 5px;
+	padding				: 20px;
+}
+
+.td_label {
+	width				: 120px;
+}
+
+.td_seperator {
+	width				: 15px;
+}
+
+#div_form_address {
+	border				: 2px thin white;
+	border-radius		: 10px;
+	padding				: 5px;
+}
+
+#finance_menu_bar {
+	height				: 50px;
+	list-style-type		: none;
+	margin				: 20px;
+}
+
+#finance_menu_bar ul {
+	list-style-type		: none;
+	margin				: 0px;
+	padding				: 0px;
+}
+
+#finance_menu_bar li {
+	float				: left;
+}
+
+#finance_menu_bar a {
+	background-color	: #D8D8D8;
+	display				: block;
+	padding				: 10px 5px 10px 5px;
+	text-align			: center;
+	text-decoration		: none;
+	width				: 155px;
+}
+
+.error {
+	color 				: #ff0000;
+}
+
+.error_message {
+	color				: red;
+	font-size			: 20px;
+}
+
+label {
+	display				: inline-block;
+	width				: 120px;
+}
+
+.receipts_output {
+	border				: 1px solid black;
+	border-collapse		: collapse;
+}
+
+.receipts_output th {
+	background-color	: #66CCFF;
+	border				: 1px solid black;
+	padding				: 3px;
+}
+
+.receipts_output td {
+	border				: 1px solid black;
+	padding				: 3px;
+	text-align			: right;
+}
+
+.finQueryField {
+	margin				: 5px;
+	width				: 150px;
+}
+
+#loginForm tr, td {
+	width				: 90px;
+	padding				: 5px;
+}
